@@ -17,27 +17,29 @@
     <a href="#menu-tab">주메뉴 바로가기</a>
 </div>
 <header id="hd-wrap">
-    <h1 class="hd-logo">
-        <a href="/">
-            <span>WORLD SPON</span>
-        </a>
-    </h1>
-    <nav class="navi">
-        <ul id="menu-tab">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#special-feature">FEATURE</a></li>
-            <li><a href="#preview-wrap">PREVIEW</a></li>
-            <li><a href="#partnership-wrap">PARTNERSHIP</a></li>
-            <li><a href="#ft-wrap">CONTACT</a></li>
-        </ul>
-    </nav>
+    <div class="hd-inner">
+        <h1 class="hd-logo">
+            <a href="/">
+                <span>WORLD SPON</span>
+            </a>
+        </h1>
+        <nav class="navi">
+            <ul id="menu-tab">
+                <li class="hm"><a href="#">HOME</a></li>
+                <li class="spef"><a href="#special-feature">FEATURE</a></li>
+                <li class="prew"><a href="#preview-wrap">PREVIEW</a></li>
+                <li class="partw"><a href="#partnership-wrap">PARTNERSHIP</a></li>
+                <li class="cont"><a href="#ft-wrap">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <div id="wrapper">
     <div class="bn-wrap">
         <div class="bnr">
             <div class="banner-left">
                 <p class="words">Accept WorldSpon and<br> Cryptocurrency <strong>Payments</strong></p>
-                <div class="bn-store"><button>Google Play</button></div>
+                <div class="bn-store"><a href="https://play.google.com/store/apps/details?id=com.coinbank.worldspon&hl=ko" target="blank_">Google Play</a></div>
             </div>
             <div class="banner-right">
                 <img src="img/img_cryptocurrency.png" alt="cryptocurrency image">
@@ -45,7 +47,7 @@
         </div>
     </div>
     <section id="special-feature">
-        <h2 class="sub-feature subtitle">FEATURES</h2>
+        <h2 class="sub-feature subtitle"><span>FEATURES</span></h2>
         <div class="profit feature-series">
             <div>
                 <img src="img/profit.png">
@@ -84,65 +86,67 @@
         </div>
     </section>
     <section id="preview-wrap">
-       <div class="preview">
-            <h2 class="subtitle">PREVIEW</h2>
-            <div>
-                <div>
-                    <img src="img/preview1.png" alt="preview image">
-                </div>
-                <div>
-                    <img src="img/preview2.png" alt="preview image">
-                </div>
-                <div>
-                    <img src="img/preview3.png" alt="preview image">
-                </div>
-                <div class="prev-arrow">
-                    <img src="img/icon_styler_prev.png" alt="arrow image">
-                </div>
-                <div class="next-arrow">
-                    <img src="img/icon_styler_next.png" alt="arrow image">
-                </div>
+        <h2 class="subtitle sub-pre"><span>PREVIEW</span></h2>
+        <div class="preview">
+            <div class="prev-arrow">
+                <a href="#">
+                </a>
+            </div>
+            <div class="pre-img">
+                <img src="img/preview2.png" alt="preview image">
+            </div>
+            <div class="main-img">
+                <img src="img/preview1.png" alt="preview image">
+            </div>
+            <div class="nt-img">
+                <img src="img/preview3.png" alt="preview image">
+            </div>
+            <div class="next-arrow">
+                <a href="#">
+                </a>
             </div>
         </div>
     </section>
     <div class="try">
         <p>지금바로 월드스폰만의 강력한 리워드를 경험해보세요 !</p>
-        <div>
-            <a href="#"><span>google play</span></a>
+        <div class="gpon">
+            <a href="https://play.google.com/store/apps/details?id=com.coinbank.worldspon&hl=ko" target="blank_"><img src="img/img_googleplay.png" alt="googleplay"></a>
         </div>
     </div>
     <section id="partnership-wrap">
-       <div>
-            <h2 class="subtitle">PARTNERSHIP</h2>
-            <div>
-                <div class="part-box">
-                    <a href="#"><span class="part">windyplan</span></a>
+        <h2 class="subtitle"><span>PARTNERSHIP</span></h2>
+        <div class="box-wrap">
+            <div class="four-part">
+                <div class="windy part-box">
+                    <a href="http://www.windyplan.com/" target="blank_"><img src="img/windy_logo.png" alt="windy"></a>
                 </div>
-                <div class="part-box">
-                    <a href="#"><span class="part">metaps+</span></a>
+                <div class="metas part-box">
+                    <a href="http://www.metapsplus.com/" target="blank_"><img src="img/metaps_logo.png" alt="metas"></a>
                 </div>
-                <div class="part-box">
-                    <a href="#"><span class="part">techbill</span></a>
+                <div class="techbill part-box">
+                    <a href="http://www.coin-box.kr/" target="blank_"><img src="img/techbill_logo.png" alt="techbill"></a>
                 </div>
-                <div class="part-box">
-                    <a href="#"><span class="part">appang</span></a>
+                <div class="appang part-box">
+                    <a href="http://www.appang.kr/home/" target="blank_"><img src="img/appang_logo.png" alt="appang"></a>
                 </div>
             </div>
         </div>
     </section>
     <footer id="ft-wrap">
-        <div class="ftr">
-            <div>
-                <img src="img/logo_white.png" alt="하단로고">
+        <div class="ft-bind">
+            <div class="ftr">
+                <div class="ft-logo">
+                    <img src="img/logo_white.png" alt="하단로고">
+                </div>
+                <div class="add-info">
+                    <p>사업자등록번호 : 374-86-00996</p>
+                    <p>업종 : 전자상거래</p>
+                    <p>대표이사 : 김성봉</p>
+                    <address>주소 : 서울특별시 강남구 테헤란로 63길 14, 9층(삼성동, 인화빌딩)</address>
+                    <p>이메일 : help@worldspon.com</p>
+                </div>
             </div>
-            <div>
-                <p>사업자등록번호 : 374-86-00996</p>
-                <p>업종 : 전자상거래</p>
-                <p>대표이사 : 김성봉</p>
-                <address>주소 : 서울특별시 강남구 테헤란로 63길 14, 9층(삼성동, 인화빌딩)</address>
-                <p>이메일 : help@worldspon.com</p>
-            </div>
-            <div>
+            <div class="ftl">
                 <p>Copyright &copy; 2019 WORLDSPON Inc. All Rights Reserved.</p>
             </div>
         </div>
