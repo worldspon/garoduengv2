@@ -1,8 +1,19 @@
-@keyframes ani-bn{
-    from{
+@keyframes ani-bn {
+    from {
         opacity: 0;    
     }
-    to{
+    to {
         opacity: 1;
+    }
+}
+
+@keyframes ani-hd {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
