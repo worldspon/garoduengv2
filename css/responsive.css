@@ -122,7 +122,7 @@
     .main-img {
         width: 260px;
     }
-    .prev-arrow>a, .next-arrow>a {
+    .prev-arrow>button, .next-arrow>button {
         width: 45px;
         height: 45px;
     }
@@ -227,7 +227,7 @@
     .main-img {
         -ms-grid-column: 3;
         grid-column: 2;
-        width: 80%;
+        width: 90%;
     }
     .next-arrow {
         -ms-grid-column: 5;
