@@ -21,7 +21,7 @@
         animation: ani-hd 0.7s ease-in-out 0.3s forwards;
     }
 
-    .hd-logo img {
+    .logo-img {
         width:200px;
     }
     
@@ -222,7 +222,7 @@
         -ms-grid-columns: auto 10px 1fr 10px auto;
         grid-template-columns: auto 1fr auto;
         grid-column-gap: 10px;
-        margin: 10px 10px 0;
+        margin: 10px 30px 0;
     }
     .main-img {
         -ms-grid-column: 3;
@@ -243,6 +243,11 @@
     }
     .hd-logo {
         padding: 15px 0 15px 10px;
+    }
+
+    .navi {
+        animation: none;
+        opacity: 1;
     }
     .mobile-menu {
         display: block;
@@ -267,6 +272,8 @@
         height:3px;
         border-radius: 3px;
         background: #fff;
+        opacity: 1;
+        transition:0.5s;
     }
     .mobile-menu:before, .mobile-menu:after {
         content: '';
@@ -276,6 +283,7 @@
         width: 42px;
         height:3px;
         background :#fff;
+        transition:0.5s;
     }
     .mobile-menu:before {
         top: 6px;
@@ -285,15 +293,18 @@
     }
 
     /* javascript addclass "on" */
-    .mobile-menu span.on {
-        margin-right: -15px;
+    .mobile-menu-on span {
+        margin-right: -150px;
+        opacity: 0;
     }
-    .mobile-menu:before.on {
+    .mobile-menu-on:before {
+        right: 8px;
         width:44px;
         transform: rotate(-45deg);
         transform-origin: top right;
     }
-    .mobile-menu:after.on {
+    .mobile-menu-on:after {
+        right: 8px;
         width:44px; 
         transform: rotate(45deg);
         transform-origin: bottom right;   
@@ -302,7 +313,7 @@
     #menu-tab {
         display: none;
         position: fixed;
-        top:0px;
+        top:63px;
         left: 0;
         width:100%;
         text-align: center;
@@ -311,9 +322,6 @@
     }
     
     /* javascript addclass "on" */
-    #menu-tab {
-        /* display: block; */
-    }
     /* 이전 display 속성이 flex이기 때문에 */
 
     #menu-tab li {
