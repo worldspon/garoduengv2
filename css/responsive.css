@@ -222,7 +222,7 @@
         -ms-grid-columns: auto 10px 1fr 10px auto;
         grid-template-columns: auto 1fr auto;
         grid-column-gap: 10px;
-        margin: 10px 30px 0;
+        margin: 10px 20px 0;
     }
     .main-img {
         -ms-grid-column: 3;
