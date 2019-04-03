@@ -36,7 +36,7 @@
     
     /* common */
     #wrapper {
-        -ms-grid-columns: 100%;
+        -ms-grid-columns: 1fr;
         grid-template-columns: 100%;
     }
     .subtitle {
@@ -161,7 +161,7 @@
     
     /* footer */
     #ft-wrap {
-        display: initial;
+        display: block;
         -ms-grid-column: 1;
         grid-column: 1;
         padding:30px 15px;    
@@ -240,9 +240,6 @@
     /* header */
     #hd-wrap {
         padding:0px;
-    }
-    .hd-inner {
-        display: initial;
     }
     .hd-logo {
         padding: 15px 0 15px 10px;
@@ -366,7 +363,7 @@
 
     /* footer */
     .ft-bind {
-        display: initial;
+        display: block;
     }
     .ftl {
         margin-top: 20px;
