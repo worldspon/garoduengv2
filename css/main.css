@@ -65,6 +65,7 @@ a {
     grid-row: 1;
 }
 .hd-logo {
+    display: inline-block;
     -ms-grid-column: 1;
     grid-column: 1;
     -ms-grid-row: 1;
