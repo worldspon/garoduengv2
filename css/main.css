@@ -52,6 +52,8 @@ a {
     border-bottom: 1px solid #ddd;
     background: #532480;
 }
+
+
 .hd-inner {
     display: -ms-grid;
     display: grid;
@@ -356,6 +358,10 @@ a {
     grid-row: 2;
     margin: 15px 20px 0;
 }
+
+.preview img {
+    filter: drop-shadow(15px 10px 5px #aaa);
+}
 .preview div {
     display: flex;
     align-items: center;
@@ -559,6 +565,30 @@ a {
 }
 .ftl {
     display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
     align-items: flex-end;
     font-size: 0.9rem;
 }
+
+.intro {
+    font-size: 0.5rem;
+    color: white;
+    border: 1px solid #eee;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom:5px;
+    background: none;
+    cursor: pointer;
+}
+
+
+/* 
+.intro a {
+    display: inline-block;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: white;
+} */

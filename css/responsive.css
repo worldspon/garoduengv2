@@ -374,9 +374,16 @@
         display: block;
     }
     .ftl {
-        margin-top: 20px;
+        margin-top: 10px;
+        align-items: flex-start;
     }
-
+/* 
+    .intro a {
+        display: inline-block;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        color: white;
+    } */
 }
 
 @media screen and (max-width: 600px) {
