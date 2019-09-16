@@ -340,11 +340,19 @@
         padding:30px 10px 50px;
     }
     .four-part {
-        -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+        -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
         -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
         margin-top: 0;
+    }
+    .metas {
+        -ms-grid-column: 3;
+        grid-column: 3;
+    }
+    .gigc {
+        -ms-grid-column: 2;
+        grid-column: 2;
     }
     .part-box {
         margin:15px 0;
